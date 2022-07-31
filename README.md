@@ -2,7 +2,7 @@ PRÁCTICA JAVASCRIPT KEEPCODING
 RAFAEL MARTÍNEZ GARCÍA
 
 
-El siguiente programa ser ealiza con el objetivo didático de poner en práctica lo aprendido durante el módulo de Introducción a javascript.
+El siguiente programa ser realiza con el objetivo didático de poner en práctica lo aprendido durante el módulo de Introducción a javascript.
 
 Se ha creado un programa ejecutbale mediante Visual Studio y node, para simular la un torneo de Fútbol, con fase de grupos, playoff y campeón.
 
