@@ -235,11 +235,11 @@ export class League {
       console.log(
         "\n==========================================================="
       );
-      console.log("||***|| Comienza las fases eliminatorias del torneo  ||***||");
+      console.log("||***|| Comienzan las  eliminatorias de la Euro  ||***||");
       console.log(
         "===========================================================\n"
       );
-      console.log("Equipos que participan en el playoff:\n");
+      console.log("Equipos participantes del playoff:\n");
       const grou = ["Grupo A", "Grupo B", "Grupo C", "Grupo D"];
       for (let i = 0; i < 4; i++) {
         console.log(`[!] ${grou[i]}`);
@@ -305,7 +305,7 @@ export class League {
       this.semifinalWinners.push(sem1Winner, sem2Winner);
   
       console.log("\n======================================");
-      console.log("||***|| Tercer y Cuarto Puesto ||***||");
+      console.log("||***|| Tercer y Cuarto lugar ||***||");
       console.log("======================================\n");
   
       const third = this.knockoutMatch(
@@ -329,7 +329,7 @@ export class League {
       );
   
       console.log("\n===============================================");
-      console.log(`||***|| ${teams[winner].name} Campeona EuroWomenCup22!!||***||`);
+      console.log(`||***|| ${teams[winner].name} Campeona Eurocopa femenina 2022!!||***||`);
       console.log("===============================================\n");
     }
   
