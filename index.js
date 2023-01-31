@@ -1,6 +1,6 @@
 import { League } from "./classes/League.js";
 import { Team } from "./classes/Team.js";
-import { teams as teamNames } from "./teams.js";
+import { teams as teamNames } from "./all-teams.js";
 
 const liga = new League("Eurocopa Femenina 2022");
 const teams = teamNames.map((team) => {
