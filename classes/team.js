@@ -11,20 +11,20 @@ export class Team {
       return this.name;
     }
   
-    //número aleatorio de goles
+    //goles aleatorios
     play() {
       const goals = Math.floor(Math.random() * 10);
       return goals;
     }
   
-    //goles a favor y en contra a cada equipo
+    //goloes de cada equipoc. A favor y en contra
     setGoals(goals = 0, goalsAgainst = 0) {
       this.goals += goals;
       this.goalsAgainst += goalsAgainst;
       this.goalsDiff = this.goals - this.goalsAgainst;
     }
   
-    // Resetear los goles
+    // Para reset  goles
     resetGoals() {
       this.goals = 0;
       this.goalsAgainst = 0;

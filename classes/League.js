@@ -11,29 +11,29 @@ export class League {
     }
   
     startLeague(teams = []) {
-      // Fase de grupos
+      // Ejecuta la fase de grupos
       this.setupGroupStage(teams);
-      // Jugar fase de grupos
+      // Para jugar fase de grupos
       this.playGroupStage(this.groups);
-      // Configurar playoff
+      // Configurar eliminatorias
       this.setupPlayoffs(this.groups);
-      // Jugar playoff/cuartos
+      // Jugar eliminatorias/cuartos
       this.playPlayoffs(this.cualifiedTeams);
-      // jugar la semifinal
+      // Para jugar la semifinal
       this.playSemifinals(this.cualifiedTeams);
-      // Jugar final
+      // Se juega final
       this.playFinal(this.semifinalWinners);
     }
   
-    // Configurar fase de equipos
+    // Para connfigurar fase de equipos
     setupGroupStage(teams) {
-      // Mezclar aleatoriamente array de equipos
+      // Array de equipos  aleatoriamente 
       this.raffleTeams(teams);
   
-      // Crear grupos de 4 equipos mezclados antes
+      // Se crean grupos de 4 equipos random
       this.makeGroups(this.randomizedTeams);
   
-      // Equipo del grupo se enfrente con los demás del grupo(3 jornadas)
+      // Todos contra todos(3 jornadas)
       this.allVsAll(this.groups);
   
       // Mostrar por consola los grupos resultantes
