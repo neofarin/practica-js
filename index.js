@@ -1,9 +1,10 @@
-import GroupStage from "./classes/GroupStage.js"
-import allTeams from "./all-teams.js";
-import Playoffs from "./classes/Playoffs.js";
+import { League } from "./classes/League.js";
+import { Team } from "./classes/Team.js";
+import { teams as teamNames } from "./teams.js";
 
-const groupStage = new GroupStage(allTeams);
+const liga = new League("Eurocopa Femenina 2022");
+const teams = teamNames.map((team) => {
+  return new Team(team);
+});
 
-const playoffs = new Playoffs(allTeams);
-
-
+liga.startLeague(teams);

@@ -1,17 +1,19 @@
-export default [
+export const teams = [
     "Inglaterra",
-    "Austria",
-    "Noruega",
-    "Irlanda del Norte",
-    "Alemania",
+    "Paises Bajos",
     "Dinamarca",
+    "Noruega",
     "España",
     "Finlandia",
-    "Países Bajos",
     "Suecia",
+    "Francia",
+    "Belgica",
+    "Alemania",
+    "Italia",
+    "Islandia",
+    "Austria",
     "Portugal",
     "Suiza",
-    "Francia",
-    "Italia",
-    "Bélgica",
-    "Islandia",]
+    "Irlanda del Norte",
+  ];
+  
